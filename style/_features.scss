@@ -1,0 +1,73 @@
+.features {
+  background: #2b076e;
+  position: relative;
+  overflow: hidden;
+  .container {
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+  }
+}
+.features_sircl {
+  position: absolute;
+  top: -345px;
+  width: 686px;
+  height: 686px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(255, 255, 255, 0.16) 0deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+  transform: rotate(90deg);
+  border-radius: 50%;
+}
+.features_sircl_second {
+  position: absolute;
+  bottom: -394px;
+  right: -249px;
+  width: 686px;
+  height: 686px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(255, 255, 255, 0.1) 0deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+  transform: rotate(-120deg);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.features_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.invest {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+.invest_text {
+  margin-top: 140px;
+  & h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    margin-bottom: 24px;
+  }
+  & p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    margin-bottom: 32px;
+  }
+}
+.invest_img {
+  margin-top: 100px;
+}
+.statistic {
+  margin-left: -120px;
+}

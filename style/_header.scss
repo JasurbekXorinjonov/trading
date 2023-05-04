@@ -1,0 +1,141 @@
+.header {
+  background: #0d0d2b;
+  padding-top: 75px;
+  padding-bottom: 130px;
+  position: relative;
+  .container {
+    position: relative;
+    overflow: hidden;
+  }
+  &_obsalute_second {
+    position: absolute;
+    top: 150px;
+    right: 180px;
+    width: 120px;
+    height: 997.88px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0.49%,
+      rgba(255, 255, 255, 0.04) 39.06%,
+      rgba(255, 255, 255, 0) 99.92%
+    );
+    transform: rotate(-120deg);
+  }
+  &_obsalute {
+    position: absolute;
+    left: 44%;
+    top: 28%;
+    width: 120px;
+    height: 997.88px;
+    background: linear-gradient(
+      180.09deg,
+      rgba(255, 255, 255, 0) 0.49%,
+      rgba(255, 255, 255, 0.04) 39.06%,
+      rgba(255, 255, 255, 0) 99.92%
+    );
+    transform: rotate(-120deg);
+  }
+}
+.navbar,
+.nav_menu,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_menu {
+  margin-left: auto;
+  margin-right: 24px;
+}
+.logo_text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-left: 16px;
+}
+.nav_menu_item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-right: 32px;
+}
+.sign_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 24px;
+  border-right: 1px solid #f2f2f2;
+  padding-right: 24px;
+}
+.header_value {
+  display: flex;
+  overflow-x: hidden;
+}
+.info {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 32px;
+  padding: 4px 11px;
+  width: 375px;
+  margin-top: 131px;
+  margin-bottom: 28px;
+}
+.save_text,
+.info_text {
+  margin: 0;
+}
+.save {
+  color: #000;
+  background: #ffffff;
+  border-radius: 32px;
+  padding: 4px 16px;
+  margin-right: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #0d0d2b;
+}
+
+.info_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+.value_titel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  margin-bottom: 24px;
+}
+.value_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  margin-bottom: 32px;
+}
+.bitcoin_img {
+  margin-top: 51px;
+  margin-bottom: 101px;
+}
+.value_card .btn {
+  display: flex;
+  align-items: center;
+}
+.btn img {
+  margin-left: 24px;
+}

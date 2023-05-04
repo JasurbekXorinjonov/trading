@@ -1,0 +1,26 @@
+@mixin siteContainer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 120px;
+  box-sizing: border-box;
+}
+.container {
+  @include siteContainer();
+}
+@mixin btnMixin {
+  background: #3671e9;
+  border-radius: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  padding: 14px 32px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.btn {
+  @include btnMixin();
+}
